@@ -20,7 +20,14 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
     path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
     i18n-default-lang: fr-FR # Default language
     pin-canonicals: pin-all
-
+    apply-contact: true
+    apply-jurisdiction: true
+    logging:
+      - tx #tx: Messages describing the use of the terminology server (for debugging)
+      - html #html: Log when validating an html page (troubleshooting only - leave off)
+      - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
+      - init #init: Messages describing the start up process (for debugging)
+      - progress #progress: Overall progress messages
 
 
 
