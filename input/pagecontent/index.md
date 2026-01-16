@@ -43,7 +43,7 @@ Les principales sections de l'IG  sont :
 
 ### Périmètre du projet
 
-Définir en quelques lignes en anglais quel est le périmètre du projet
+Définir en quelques lignes quel est le périmètre du projet
 
 Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
 
