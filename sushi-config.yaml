@@ -60,11 +60,11 @@ menu:
         Construction des flux: construction_des_flux.html
         Flux 01: st_flux1.html
         Flux 02: st_flux2.html
-    Ressources de conformité: artifacts.html
     Volume 3 - Annexes:
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
+    Ressources de conformité: artifacts.html
     Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
     Historique: change-log.html
