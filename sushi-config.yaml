@@ -61,7 +61,7 @@ menu:
         Flux 01: st_flux1.html
         Flux 02: st_flux2.html
     Ressources de conformité: artifacts.html
-    Autres ressources:
+    Volume 3 - Annexes:
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
