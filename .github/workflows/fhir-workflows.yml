@@ -9,8 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:      
+        with:
           path: igSource
+      - name: Pre-install non-registry FHIR packages
+        run: |
+          mkdir -p ~/.fhir/packages/xtehr.eu.ehds.models#0.3.0
+          tar -xzf igSource/non-registry-packages/xtehr.eu.ehds.models-0.3.0.tgz -C ~/.fhir/packages/xtehr.eu.ehds.models#0.3.0
       - uses: ansforge/IG-workflows@main
         with:      
           repo_ig: "./igSource"   
