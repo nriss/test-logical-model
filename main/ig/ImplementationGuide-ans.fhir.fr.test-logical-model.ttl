@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "TestLogicalModel"] ; # 
   fhir:title [ fhir:v "Test - Héritage de Modèles Logiques"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-27T15:37:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-27T15:45:43+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -228,7 +228,7 @@
          fhir:reference [ fhir:v "StructureDefinition/ANSPatient" ]
        ] ;
        fhir:name [ fhir:v "Modèle Patient ANS (extension EHDSPatient)" ] ;
-       fhir:description [ fhir:v "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français." ] ;
+       fhir:description [ fhir:v "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

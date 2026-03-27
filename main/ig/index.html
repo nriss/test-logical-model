@@ -203,18 +203,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
-  <li><a href="#ce-qui-est-testé" id="markdown-toc-ce-qui-est-testé">Ce qui est testé</a></li>
+  <li><a href="#résultats" id="markdown-toc-résultats">Résultats</a></li>
+  <li><a href="#note-sur-les-dépendances" id="markdown-toc-note-sur-les-dépendances">Note sur les dépendances</a></li>
   <li><a href="#dépendances" id="markdown-toc-dépendances">Dépendances</a></li>
 </ul>
 
 </div>
 <h3 id="introduction">Introduction</h3>
 
-<p>Cet IG est un <strong>bac à sable technique</strong> destiné à tester l'héritage de modèles logiques FHIR.</p>
+<p>Cet IG est un <strong>bac à sable technique</strong> destiné à tester deux capacités de modélisation logique FHIR dans un contexte d'interopérabilité européen :</p>
 
-<p>L'objectif est de vérifier qu'il est possible d'étendre un modèle logique existant (ici <a href="https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html"><code class="language-plaintext highlighter-rouge">EHDSPatient</code></a> du projet Xt-EHR) en y ajoutant des champs spécifiques au contexte français.</p>
+<ol>
+  <li><strong>L'héritage de modèles logiques</strong> : est-il possible d'étendre un modèle logique existant en y ajoutant des champs ?</li>
+  <li><strong>La traduction d'éléments hérités</strong> : est-il possible de traduire en français les libellés des éléments issus d'un modèle parent ?</li>
+</ol>
 
-<h3 id="ce-qui-est-testé">Ce qui est testé</h3>
+<p>Le modèle parent utilisé est <a href="https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html"><code class="language-plaintext highlighter-rouge">EHDSPatient</code></a> du projet <a href="https://www.xt-ehr.eu/">Xt-EHR</a>, qui définit un modèle logique de patient dans le cadre de l'Espace Européen des Données de Santé (EEDS).</p>
+
+<hr />
+
+<h3 id="résultats">Résultats</h3>
+
+<h4 id="1-héritage-de-modèles-logiques---fonctionne">1. Héritage de modèles logiques — ✅ Fonctionne</h4>
+
+<p>Il est possible de dériver un modèle logique FHIR en utilisant <code class="language-plaintext highlighter-rouge">Parent:</code> dans FSH. Le modèle enfant <a href="StructureDefinition-ANSPatient.html"><code class="language-plaintext highlighter-rouge">ANSPatient</code></a> hérite de tous les éléments d'<code class="language-plaintext highlighter-rouge">EHDSPatient</code> et y ajoute 5 champs spécifiques au contexte français.</p>
 
 <table>
   <thead>
@@ -232,6 +244,41 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
   </tbody>
 </table>
+
+<p>En FSH :</p>
+<pre><code class="language-fsh">Logical: ANSPatient
+Parent: http://www.xt-ehr.eu/fhir/models/StructureDefinition/EHDSPatient
+</code></pre>
+
+<h4 id="2-traduction-des-éléments-hérités---fonctionne-deux-approches">2. Traduction des éléments hérités — ✅ Fonctionne (deux approches)</h4>
+
+<p>Deux approches ont été testées sur des champs différents afin de comparer leur rendu dans la <a href="StructureDefinition-ANSPatient.html">page de la StructureDefinition</a>.</p>
+
+<p><strong>Approche 1 — Surcharge directe</strong> (champs : <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">dateOfBirth</code>, <code class="language-plaintext highlighter-rouge">administrativeGender</code>)</p>
+
+<p>Remplace le texte anglais par du texte français directement dans le modèle dérivé via <code class="language-plaintext highlighter-rouge">^short</code> et <code class="language-plaintext highlighter-rouge">^definition</code>. Le libellé français apparaît dans la page HTML générée.</p>
+
+<pre><code class="language-fsh">* name ^short = "Nom du patient"
+* name ^definition = "Nom associé au patient..."
+</code></pre>
+
+<p><strong>Approche 2 — Extension <code class="language-plaintext highlighter-rouge">translation</code> parallèle</strong> (champs : <code class="language-plaintext highlighter-rouge">identifier</code>, <code class="language-plaintext highlighter-rouge">address</code>, <code class="language-plaintext highlighter-rouge">telecom</code>)</p>
+
+<p>Conserve le libellé anglais d'origine et ajoute un libellé français via l'extension FHIR standard <code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/StructureDefinition/translation</code>. Les deux langues coexistent dans la StructureDefinition. Le libellé français n'est <strong>pas</strong> visible dans la page HTML générée par le publisher — il est uniquement présent dans le JSON brut.</p>
+
+<pre><code class="language-fsh">* identifier ^short.extension[http://hl7.org/fhir/StructureDefinition/translation][+].extension[lang].valueCode = #fr-FR
+* identifier ^short.extension[http://hl7.org/fhir/StructureDefinition/translation][=].extension[content].valueString = "Identifiant du patient"
+</code></pre>
+
+<p><strong>Sans traduction</strong> (champ : <code class="language-plaintext highlighter-rouge">deceased[x]</code>)</p>
+
+<p>Le libellé anglais d'origine est conservé tel quel, pour comparaison.</p>
+
+<hr />
+
+<h3 id="note-sur-les-dépendances">Note sur les dépendances</h3>
+
+<p>Le package <code class="language-plaintext highlighter-rouge">xtehr.eu.ehds.models#0.3.0</code> n'est pas publié sur le registre public FHIR (<code class="language-plaintext highlighter-rouge">packages.fhir.org</code>). Il est inclus dans ce dépôt sous <code class="language-plaintext highlighter-rouge">non-registry-packages/</code> et pré-installé dans le cache FHIR avant l'étape SUSHI dans le workflow CI.</p>
 
 <h3 id="dépendances">Dépendances</h3>
 
@@ -294,7 +341,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.test-logical-model#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Mar 27, 2026 15:37+0000">2026-03-27</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.test-logical-model#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Mar 27, 2026 15:45+0000">2026-03-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |

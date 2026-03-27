@@ -13,7 +13,7 @@ These define data models that represent the domain covered by this implementatio
 
 | | |
 | :--- | :--- |
-| [Modèle Patient ANS (extension EHDSPatient)](StructureDefinition-ANSPatient.md) | Extension du modèle EHDSPatient pour le contexte français. Traduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français. |
+| [Modèle Patient ANS (extension EHDSPatient)](StructureDefinition-ANSPatient.md) | Extension du modèle EHDSPatient pour le contexte français. Traduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français. |
 
 ### Structures: Resource Profiles 
 

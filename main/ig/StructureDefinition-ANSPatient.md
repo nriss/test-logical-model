@@ -12,7 +12,7 @@
 | Draft as of 2026-03-27 | *Computable Name*:ANSPatient |
 
  
-Extension du modèle EHDSPatient pour le contexte français. Traduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français. 
+Extension du modèle EHDSPatient pour le contexte français. Traduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français. 
 
 **Utilisations:**
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-ANSPatient.csv), [Ex
   "name" : "ANSPatient",
   "title" : "Modèle Patient ANS (extension EHDSPatient)",
   "status" : "draft",
-  "date" : "2026-03-27T15:37:21+00:00",
+  "date" : "2026-03-27T15:45:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -54,7 +54,7 @@ Other representations of profile: [CSV](StructureDefinition-ANSPatient.csv), [Ex
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français.",
+  "description" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -78,12 +78,11 @@ Other representations of profile: [CSV](StructureDefinition-ANSPatient.csv), [Ex
       "id" : "ANSPatient",
       "path" : "ANSPatient",
       "short" : "Modèle Patient ANS (extension EHDSPatient)",
-      "definition" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français."
+      "definition" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français."
     },
     {
       "id" : "ANSPatient.identifier",
       "path" : "ANSPatient.identifier",
-      "short" : "Identifiant du patient",
       "_short" : {
         "extension" : [{
           "extension" : [{
@@ -97,7 +96,19 @@ Other representations of profile: [CSV](StructureDefinition-ANSPatient.csv), [Ex
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         }]
       },
-      "definition" : "Identifiant unique du patient dans un périmètre défini (par ex. identifiant national de santé, ou identifiant temporaire du DPI)."
+      "_definition" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr-FR"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Identifiant unique du patient dans un périmètre défini (par ex. identifiant national de santé, ou identifiant temporaire du DPI)."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "ANSPatient.name",
@@ -112,12 +123,6 @@ Other representations of profile: [CSV](StructureDefinition-ANSPatient.csv), [Ex
       "definition" : "Date de naissance du patient."
     },
     {
-      "id" : "ANSPatient.deceased[x]",
-      "path" : "ANSPatient.deceased[x]",
-      "short" : "Patient décédé / Date de décès",
-      "definition" : "Indique si le patient est décédé ou renseigne la date de décès."
-    },
-    {
       "id" : "ANSPatient.administrativeGender",
       "path" : "ANSPatient.administrativeGender",
       "short" : "Genre administratif",
@@ -126,14 +131,62 @@ Other representations of profile: [CSV](StructureDefinition-ANSPatient.csv), [Ex
     {
       "id" : "ANSPatient.address",
       "path" : "ANSPatient.address",
-      "short" : "Adresse(s)",
-      "definition" : "Adresses postale et personnelle/professionnelle du patient."
+      "_short" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr-FR"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Adresse(s)"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "_definition" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr-FR"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Adresses postale et personnelle/professionnelle du patient."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "ANSPatient.telecom",
       "path" : "ANSPatient.telecom",
-      "short" : "Coordonnées de contact",
-      "definition" : "Informations de contact du patient (téléphone, email, etc.)."
+      "_short" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr-FR"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Coordonnées de contact"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "_definition" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr-FR"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Informations de contact du patient (téléphone, email, etc.)."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "ANSPatient.insFichier",

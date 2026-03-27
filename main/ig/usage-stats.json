@@ -40,7 +40,9 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
+      "StructureDefinition.differential.element.definition",
       "StructureDefinition.differential.element.short",
+      "StructureDefinition.snapshot.element.definition",
       "StructureDefinition.snapshot.element.short"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [

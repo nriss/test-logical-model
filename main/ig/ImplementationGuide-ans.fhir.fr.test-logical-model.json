@@ -10,7 +10,7 @@
   "name" : "TestLogicalModel",
   "title" : "Test - Héritage de Modèles Logiques",
   "status" : "draft",
-  "date" : "2026-03-27T15:37:21+00:00",
+  "date" : "2026-03-27T15:45:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -143,7 +143,7 @@
         "reference" : "StructureDefinition/ANSPatient"
       },
       "name" : "Modèle Patient ANS (extension EHDSPatient)",
-      "description" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français.",
+      "description" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français.",
       "isExample" : false
     },
     {

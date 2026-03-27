@@ -12,15 +12,66 @@
 
 ### Introduction
 
-Cet IG est un **bac à sable technique** destiné à tester l'héritage de modèles logiques FHIR.
+Cet IG est un **bac à sable technique** destiné à tester deux capacités de modélisation logique FHIR dans un contexte d'interopérabilité européen :
 
-L'objectif est de vérifier qu'il est possible d'étendre un modèle logique existant (ici [`EHDSPatient`](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html) du projet Xt-EHR) en y ajoutant des champs spécifiques au contexte français.
+1. **L'héritage de modèles logiques**: est-il possible d'étendre un modèle logique existant en y ajoutant des champs ?
+1. **La traduction d'éléments hérités**: est-il possible de traduire en français les libellés des éléments issus d'un modèle parent ?
 
-### Ce qui est testé
+Le modèle parent utilisé est [`EHDSPatient`](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html) du projet [Xt-EHR](https://www.xt-ehr.eu/), qui définit un modèle logique de patient dans le cadre de l'Espace Européen des Données de Santé (EEDS).
+
+-------
+
+### Résultats
+
+#### 1. Héritage de modèles logiques — ✅ Fonctionne
+
+Il est possible de dériver un modèle logique FHIR en utilisant `Parent:` dans FSH. Le modèle enfant [`ANSPatient`](StructureDefinition-ANSPatient.md) hérite de tous les éléments d'`EHDSPatient` et y ajoute 5 champs spécifiques au contexte français.
 
 | | | |
 | :--- | :--- | :--- |
 | [`EHDSPatient`](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html)(Xt-EHR) | [`ANSPatient`](StructureDefinition-ANSPatient.md) | INS-NIR, INS-NIA, lieu de naissance, nationalité, situation familiale |
+
+En FSH :
+
+```
+Logical: ANSPatient
+Parent: http://www.xt-ehr.eu/fhir/models/StructureDefinition/EHDSPatient
+
+```
+
+#### 2. Traduction des éléments hérités — ✅ Fonctionne (deux approches)
+
+Deux approches ont été testées sur des champs différents afin de comparer leur rendu dans la [page de la StructureDefinition](StructureDefinition-ANSPatient.md).
+
+**Approche 1 — Surcharge directe** (champs : `name`, `dateOfBirth`, `administrativeGender`)
+
+Remplace le texte anglais par du texte français directement dans le modèle dérivé via `^short` et `^definition`. Le libellé français apparaît dans la page HTML générée.
+
+```
+* name ^short = "Nom du patient"
+* name ^definition = "Nom associé au patient..."
+
+```
+
+**Approche 2 — Extension `translation` parallèle** (champs : `identifier`, `address`, `telecom`)
+
+Conserve le libellé anglais d'origine et ajoute un libellé français via l'extension FHIR standard `http://hl7.org/fhir/StructureDefinition/translation`. Les deux langues coexistent dans la StructureDefinition. Le libellé français n'est **pas** visible dans la page HTML générée par le publisher — il est uniquement présent dans le JSON brut.
+
+```
+* identifier ^short.extension[http://hl7.org/fhir/StructureDefinition/translation][+].extension[lang].valueCode = #fr-FR
+* identifier ^short.extension[http://hl7.org/fhir/StructureDefinition/translation][=].extension[content].valueString = "Identifiant du patient"
+
+```
+
+**Sans traduction** (champ : `deceased[x]`)
+
+Le libellé anglais d'origine est conservé tel quel, pour comparaison.
+
+-------
+
+### Note sur les dépendances
+
+Le package `xtehr.eu.ehds.models#0.3.0` n'est pas publié sur le registre public FHIR (`packages.fhir.org`). Il est inclus dans ce dépôt sous `non-registry-packages/` et pré-installé dans le cache FHIR avant l'étape SUSHI dans le workflow CI.
 
 ### Dépendances
 
@@ -40,7 +91,7 @@ L'objectif est de vérifier qu'il est possible d'étendre un modèle logique exi
   "name" : "TestLogicalModel",
   "title" : "Test - Héritage de Modèles Logiques",
   "status" : "draft",
-  "date" : "2026-03-27T15:37:21+00:00",
+  "date" : "2026-03-27T15:45:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -173,7 +224,7 @@ L'objectif est de vérifier qu'il est possible d'étendre un modèle logique exi
         "reference" : "StructureDefinition/ANSPatient"
       },
       "name" : "Modèle Patient ANS (extension EHDSPatient)",
-      "description" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités et ajoute des champs spécifiques au système de santé français.",
+      "description" : "Extension du modèle EHDSPatient pour le contexte français.\nTraduit en français les libellés des éléments hérités (deux approches testées) et ajoute des champs spécifiques au système de santé français.",
       "isExample" : false
     },
     {
