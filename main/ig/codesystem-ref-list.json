@@ -1,0 +1,37 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/test-logical-model/CodeSystem/competence-code-system",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "CompetenceCS",
+    "title" : "Compétences CodeSystem",
+    "description" : "Compétences des professionnels de santé.",
+    "uses" : {
+    },
+    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/test-logical-model/CodeSystem/type-carte-code-system",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "TypeCarteCS",
+    "title" : "Type de carte",
+    "description" : "Type de carte professionnelle et personnelle.",
+    "uses" : {
+    },
+    "ValueSet-TypeCarteVS.html" : "Type Carte Value Set",
+    "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+  }]
+}

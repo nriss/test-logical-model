@@ -1,0 +1,41 @@
+# ans.fhir.fr.test-logical-model#0.1.0: Test - Héritage de Modèles Logiques
+
+## Pages
+
+* [Accueil](index.md)
+* [Historique des versions](change-log.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Compétences CodeSystem](CodeSystem-competence-code-system.md)
+* [Type de carte](CodeSystem-type-carte-code-system.md)
+
+### ValueSets
+
+* [EyeColor Value Set](ValueSet-EyeColorVS.md)
+* [Melting Pot Value Set](ValueSet-MeltingPotVS.md)
+* [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md)
+* [Type Carte Value Set](ValueSet-TypeCarteVS.md)
+
+### Logicals
+
+* [Modèle Patient ANS (extension EHDSPatient)](StructureDefinition-ANSPatient.md)
+
+### Resource Profiles
+
+* [Patient français](StructureDefinition-fr-patient.md)
+
+### Extensions
+
+* [EyeColor](StructureDefinition-EyeColor.md)
+
+### ImplementationGuides
+
+* [Test - Héritage de Modèles Logiques](index.md)
+
+### Examples
+
+* [frpatient-exemple (Patient)](Patient-frpatient-exemple.md)
