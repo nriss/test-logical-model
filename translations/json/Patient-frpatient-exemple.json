@@ -1,0 +1,19 @@
+{
+  "id" : "Patient-frpatient-exemple",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "fr-FR",
+    "entries" : [{
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "DARK",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "JEANNE MARIE",
+      "target" : null
+    }]
+  }]
+}

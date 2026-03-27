@@ -1,0 +1,36 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "MeltingPotVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Melting Pot Value Set"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Melting Pot Value Set."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Blue color (qualifier value)"
+msgstr ""
+

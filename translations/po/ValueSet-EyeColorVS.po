@@ -1,0 +1,46 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "EyeColorVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "EyeColor Value Set"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Different eye colors."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Blue color"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Brown color"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "Green color"
+msgstr ""
+

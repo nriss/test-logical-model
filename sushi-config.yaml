@@ -17,7 +17,9 @@ releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#FR "France"
 
 dependencies:
-  xtehr.eu.ehds.models: 0.3.0
+  xtehr.eu.ehds.models:
+    uri: http://www.xt-ehr.eu/fhir/models/0.3.0
+    version: 0.3.0
 
 parameters:
     shownav: 'true'

@@ -1,0 +1,71 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "TypeCarteCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Type de carte"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Type de carte professionnelle et personnelle."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Carte de Personnel Autorisé"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "La carte d'un personnel autorisé (CDA/CPA)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Carte de Personnel d'Etablissement"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "La Carte de Personnel d'Etablissement de santé (CDE/CPE)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Carte de Professionnel de Santé en Formation"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "La Carte de Professionnel de Santé en Formation (CPF)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Carte de Professionnel de Santé"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "La Carte de Professionnel de Santé (CPS)."
+msgstr ""
+

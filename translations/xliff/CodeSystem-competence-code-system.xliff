@@ -1,0 +1,645 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="CodeSystem-competence-code-system" original="Resource CodeSystem-competence-code-system" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>CompetenceCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Compétences CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Compétences des professionnels de santé.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Anatomie et Cytologie pathologiques humaines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Anesthésie-réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Anesthésie-réanim;Anesthésie-réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine appliquée aux sports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Méd appliquée sports;Médecine appliquée aux sports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Cardiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Cardiologie;Cardiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chirurgie plastique, reconstructrice et esthétique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Chir plast reco esth;Chirurgie plastique, reconstructrice et esthétique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chirurgie maxillo-faciale;Chirurgie maxillo-faciale;Chirurgie maxillo-faciale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chirurgie thoracique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Chirurgie thoracique;Chirurgie thoracique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chirurgie orthopédique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Chirurgie orthopédique;Chirurgie orthopédique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Urologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Urologie;Urologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dermato-vénéréologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Dermato-vénéréologie;Dermato-vénéréologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Hémobiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Hémobiologie;Hémobiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Gynécologie médicale et Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Gynéco-médicale, Obstétrique;Gynécologie médicale et Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Gynécologie médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Gynécologie médicale;Gynécologie médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Obstétrique;Obstétrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Maladies de l'appareil digestif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Maladies appareil digestif;Maladies de l'appareil digestif</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Néphrologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Néphrologie;Néphrologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine exotique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Médecine exotique;Médecine exotique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Allergologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Allergologie;Allergologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Angéiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Angéiologie;Angéiologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Cancérologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Cancérologie;Cancérologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Diabétologie-nutrition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Diabéto-nutrition;Diabétologie-nutrition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Endocrinologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Endocrinologie;Endocrinologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Maladies du sang</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Maladies du sang;Maladies du sang</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Réanimation;Réanimation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine légale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Médecine légale;Médecine légale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine du travail</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Médecine du travail;Médecine du travail</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Neurologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Neurologie;Neurologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Neuro-chirurgie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Neuro-chirurgie;Neuro-chirurgie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Neuro-psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Neuro-psychiatrie;Neuro-psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pédiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Pédiatrie;Pédiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Phoniatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Phoniatrie;Phoniatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pneumologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Pneumologie;Pneumologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Psychiatrie;Psychiatrie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Psychiatrie, option enfant et adolescent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Psychiatrie, opt enfant et ado;Psychiatrie, option enfant et adolescent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine physique et de réadaptation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Médecine physique, réadapt;Médecine physique et de réadaptation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Rhumatologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Rhumatologie;Rhumatologie</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chirurgie pédiatrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Chirurgie pédiatrique;Chirurgie pédiatrique</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine nucléaire</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Médecine nucléaire;Médecine nucléaire</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médecine thermale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Médecine thermale;Médecine thermale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Génétique médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Génétique médicale;Génétique médicale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Endocrinologie et Maladies métaboliques</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Endocrin, Maladies métaboliq;Endocrinologie et Maladies métaboliques</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Orthopédie dento-maxillo-faciale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Orthopédie dento-maxilo-fac;Orthopédie dento-maxillo-faciale</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Chirurgie de la face et du cou</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-competence-code-system" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Chirurgie face et cou;Chirurgie de la face et du cou</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

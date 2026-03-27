@@ -1,0 +1,233 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr-FR" id="ImplementationGuide-ans.fhir.fr.test-logical-model" original="Resource ImplementationGuide-ans.fhir.fr.test-logical-model" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>TestLogicalModel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>Test - Héritage de Modèles Logiques</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.description">
+             <notes>
+               <note id="n1">ImplementationGuide.description</note>
+             </notes>
+        <source>IG de test pour expérimenter l'héritage de modèles logiques FHIR (extension de EHDSPatient)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>France</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Compétences CodeSystem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Compétences des professionnels de santé.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>EyeColor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Eye color extension</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>EyeColor Value Set</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Different eye colors.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>frpatient-exemple</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Exemple d'un patient français</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Melting Pot Value Set</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Melting Pot Value Set.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>ModifiedAdministrativeGender</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>AdministrativeGender without unknown code</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Modèle Patient ANS (extension EHDSPatient)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension du modèle EHDSPatient pour le contexte français.
+Ajoute des identifiants et des informations spécifiques au système de santé français.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Patient français</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Description du patient français</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Type Carte Value Set</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Type Carte Value Set.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Type de carte</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Type de carte professionnelle et personnelle.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.page.source[x]">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.source[x]</note>
+             </notes>
+        <source>toc.html</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.page.source[x]">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.source[x]</note>
+             </notes>
+        <source>index.html</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Accueil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.page.source[x]">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.source[x]</note>
+             </notes>
+        <source>change-log.html</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-ans.fhir.fr.test-logical-model" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Historique des versions</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

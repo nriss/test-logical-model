@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "ModifiedAdministrativeGender"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "ModifiedAdministrativeGender"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "AdministrativeGender without unknown code"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "France"
+msgstr ""
+
