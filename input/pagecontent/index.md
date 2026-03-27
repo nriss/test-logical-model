@@ -1,62 +1,15 @@
-<p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
-<b>Brief description of this Implementation Guide</b><br>
-[Add a brief description of this IG in English]
-</p>
-
-{% if site.data.info.releaselabel == 'ci-build' %}
-<div style="width: 65%">
-    <blockquote class="stu-note">
-    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : http://interop.esante.gouv.fr/ig/fhir/[code - ig]</p>
-    </blockquote>
-</div>
-{% endif %}
-
-
-{% if site.data.info.releaselabel == 'public-comment' %}
-<div style="width: 65%">
-<blockquote class="stu-note">
-<p>
-  <b>Attention !</b>
-  <br>
- Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : http://interop.esante.gouv.fr/ig/fhir/[code - ig]
-</p>
-</blockquote>
-</div>
-{% endif %}
-
-
-<!--  A décommenter si CI-SIS
-<div class="figure">
-    <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
-</div>
--->
-
 ### Introduction
 
-Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
+Cet IG est un **bac à sable technique** destiné à tester l'héritage de modèles logiques FHIR.
 
-Les principales sections de l'IG  sont :
+L'objectif est de vérifier qu'il est possible d'étendre un modèle logique existant (ici [`EHDSPatient`](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html) du projet Xt-EHR) en y ajoutant des champs spécifiques au contexte français.
 
-* Le contexte de l'IG, quelle problématique il résout
-* Ce que les Implémenteurs doivent mettre en place
-* Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs
+### Ce qui est testé
 
-### Périmètre du projet
-
-Définir en quelques lignes quel est le périmètre du projet
-
-Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
-
-### Auteurs et contributeurs (optionnel)
-
-| Role  | Nom | Organisation | Contact |
-| --- | --- | --- | --- |
-| **Primary Editor** | Prenom Nom | Agence du Numérique en Santé | prenom.nom@address.email |
+| Modèle parent | Modèle enfant | Champs ajoutés |
+|---|---|---|
+| [`EHDSPatient`](https://www.xt-ehr.eu/fhir/models/StructureDefinition-EHDSPatient.html) (Xt-EHR) | [`ANSPatient`](StructureDefinition-ANSPatient.html) | INS-NIR, INS-NIA, lieu de naissance, nationalité, situation familiale |
 
 ### Dépendances
 
-{% lang-fragment dependency-table.xhtml %}
-
-### Propriété intellectuelle
-
-{% lang-fragment ip-statements.xhtml %}
+{% include dependency-table.xhtml %}
