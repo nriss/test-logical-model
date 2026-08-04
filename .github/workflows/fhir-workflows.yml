@@ -4,6 +4,13 @@ on:
   push:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Annule tout run ci-build précédent encore en cours sur la même branche/PR
+# dès qu'un nouveau push arrive, pour économiser des minutes GitHub Actions.
+concurrency:
+  group: ci-build-${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   run-sushi-tests_gitHubPages:
     runs-on: ubuntu-latest
